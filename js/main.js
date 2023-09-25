@@ -6,9 +6,9 @@ let ingLeche = 500;
 let ingLimon = 5;
 let ingManteca = 100;
 let ingSal = 100;
-let porcentajeAdicionalCosto = 1.5; //50% -> Porcentaje adicional q quiero sumarle al costo
+let porcentajeAdicionalCosto = 1.7; //70% -> Porcentaje adicional q quiero sumarle al costo
 let horasTorta = 3;
-let costoHora = 500;
+let costoHora = 1000;
 
 
 const calcularCostos = () => {
@@ -275,7 +275,7 @@ const calcularCostos = () => {
     <td class="bg-primary text-white">El costo mas un ${((100*porcentajeAdicionalCosto)-100)}% es : $${GananciaCosto.toFixed(2)}</td>
     </tr>
     <tr>
-    <td class="bg-primary text-white"> Horas para hacer la torta: ${horasTorta}. Costo x hora: ${costoHora}. Total: $${costoHora*horasTorta}</td>
+    <td class="bg-primary text-white"> Horas para hacer la torta: ${horasTorta}. Costo x hora: $${costoHora}. Total: $${costoHora*horasTorta}</td>
     </tr>
     <tr>
     <td class="bg-primary text-white"> PRECIO DE VENTA: $${(CostoxHora+GananciaCosto).toFixed(2)}</td>
