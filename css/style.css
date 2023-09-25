@@ -1,0 +1,24 @@
+.receta{
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    background-color: lightyellow;
+    margin: 0;
+}
+.subtitle{
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 3vh;
+
+}
+.ingredientes{
+    background-image:url("../imgs/1024_2000.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
